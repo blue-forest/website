@@ -46,12 +46,12 @@ export const i18nForests = i18nData({
     },
   ],
 
-  FlagLetter: [
+  MBLocation: [
     {
-      fr: "Vous ne raterez plus votre courrier ! Flag Letter est une solution connectée qui vous prévient lorsque vous recevez du courier dans votre boîte au lettre. ",
+      fr: "Une plateforme pour louer en toute simplicité. Chantiers, gros oeuvres, petits projets, que vous soyez professionnel ou particulier trouvez le matériel dont vous avez besoin. ",
     },
     {
-      fr: "**Flag Letter et Blue Forest travaillent ensemble sur le site internet et l’application mobile qui seront le support de l’expérience utilisateurs.**",
+      fr: "**MB Location et Blue Forest collaborent sur le long terme afin de proposer une plateforme sur-mesure de location de matériel ajustable à chaque cas particuliers. Cet outil, entièrement développé à l'aide de notre technologie drop'in, offre une grande autonomie et une flexibilité certaines dans les mises à jour futures.**",
     },
   ],
 
@@ -60,30 +60,21 @@ export const i18nForests = i18nData({
       fr: "IZIHOME est un service simple, économique et pérenne de location de votre bien. ",
     },
     {
-      fr: "**IZIHOME et Blue Forest collaborent ensemble sur les différentes interfaces nécessaires pour communiquer avec leurs clients : formulaire d’éligibilité, formulaire de tarification et site internet.**",
+      fr: "**IZIHOME et Blue Forest collaborent co-construisent depuis plus d'un an l'identité graphique du projet : logo, couleurs, iconographie, éléments graphiques, typographie, supports de communications. Notre collaboration a donné naissance à un site internet évolutif pensé pour présenter au mieux les actualités de leur activité et apporter un maximum de réponses sur le domaine de la location immobilière. **",
     },
-  
-  ],
-
-  CoursdeFrance: [
-  {
-    fr: "Prépas concours à Marseille depuis 1968. Cours de France se compose d’une équipe expérimentée et bienveillante qui a pour objectif la réussite de ses élèves. ",
-  },
-  {
-    fr: "**...**",
-  },
 
   ],
 
-  MonsieurProf: [
+  LCDM: [
     {
-      fr: "....",
+      fr: "La Centrale de la Mercerie, ce sont des merciers au service des merciers.",
     },
     {
-      fr: "**...**",
+      fr: "**La Centrale de la Mercerie et Blue Forest collaborent ensemble sur la mise en place d'une plateforme de commande de produits de mercerie avec le plus grand soin porté aux méthodologies de chaque collaborateur.**",
     },
-  
+
   ],
+
 
   LaRhumerie: [
     {
@@ -92,7 +83,7 @@ export const i18nForests = i18nData({
     {
       fr: "**La Rhumerie et Blue Forest ont co-construit le site internet de l'établissement permettant de mettre en avant les valeurs et le savoir-faire de l'équipe.**",
     },
-  
+
   ],
 
 })
