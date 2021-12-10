@@ -77,7 +77,7 @@ export class Stack extends Component<Props> {
           })
           context.stroke()
 
-          // DROP'in
+          // drop'in
           // const dropin = new Rack(this, 10, 10, 2, 2)
 
           data.recipes.forEach((recipe: any) => {

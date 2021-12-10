@@ -14,7 +14,7 @@ export const i18nTechnologies = i18nData({
     fr: [
       "Développée ces ",
       years,
-      " dernières années et aujourd'hui destinée aux architectures de nos clients, DROP'in est une technologie capable de **créer**, **organiser** et **déployer** l'ensemble de vos projets.",
+      " dernières années et aujourd'hui destinée aux architectures de nos clients, drop'in est une technologie capable de **créer**, **organiser** et **déployer** l'ensemble de vos projets.",
     ],
   }),
 
@@ -28,7 +28,7 @@ export const i18nTechnologies = i18nData({
       fr: "Suite de librairies TypeScript permettant la création simplifiée d'application cross-platform web, desktop, Android et iOS avec **une unique codebase**.",
     },
     {
-      fr: "Cette technologie Open Source comprend la pré-configuration de TypeScript, WebPack, Babel, React, Sass, React Native, Electron, MobX ainsi que toutes les possibilités offertes par l'API de DROP'in."
+      fr: "Cette technologie Open Source comprend la pré-configuration de TypeScript, WebPack, Babel, React, Sass, React Native, Electron, MobX ainsi que toutes les possibilités offertes par l'API de drop'in."
     },
   ],
 

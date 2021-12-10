@@ -1,6 +1,6 @@
 {
   "name": "blueforest.cc",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "author": "Nazim Lachter <nazim@blueforest.cc>",
   "repository": "git@github.com:theblueforest/blueforest.cc.git",
   "license": "Apache-2.0",
@@ -9,7 +9,7 @@
     "start": "kiwi start",
     "test": "kiwi test",
     "build": "kiwi build",
-    "deploy": "kiwi build && docker build -t theblueforest/website . && docker push theblueforest/website"
+    "push": "kiwi build && docker build -t theblueforest/website:$npm_package_version . && docker push theblueforest/website:$npm_package_version"
   },
   "bundles": {
     "kiwi-bundle": {

@@ -22,7 +22,7 @@ export const TechnologiesLayout = BlueForest.Layout<Props>({
 
         <Kiwi.Text id={keyPrefix} children={i18nTechnologies.intro} style={TechnologiesLayoutStyle.intro}/>
 
-        <Kiwi.Text children="DROP'in" style={TechnologiesLayoutStyle.subtitle}/>
+        <Kiwi.Text children="drop'in" style={TechnologiesLayoutStyle.subtitle}/>
         <Kiwi.Text
           id={keyPrefix}
           children={i18nTechnologies.dropinDescription(new Date().getFullYear() - 2015) as any}
