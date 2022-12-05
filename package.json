@@ -1,6 +1,6 @@
 {
   "name": "blueforest.cc",
-  "version": "1.4.0",
+  "version": "1.5.1.0",
   "author": "Nazim Lachter <nazim@blueforest.cc>",
   "repository": "git@github.com:theblueforest/blueforest.cc.git",
   "license": "Apache-2.0",
@@ -16,7 +16,8 @@
       "options": {
         "app": {
           "name": "Blue Forest",
-          "author": "Blue Forest"
+          "author": "Blue Forest",
+          "description": "Blue Forest vous accompagne dans le design et l'implémentation d'expériences utilisateurs web et mobile."
         },
         "dev": {
           "webHost": "localhost",
