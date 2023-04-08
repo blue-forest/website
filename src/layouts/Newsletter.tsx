@@ -40,7 +40,7 @@ export const NewsletterLayout = BlueForest.Layout<Props, State>({
             const xhr = new XMLHttpRequest()
             xhr.open("POST", "https://listmonk.blueforest.cc/subscription/form", true)
             xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded")
-            xhr.send(`nonce=&8bd5a=8bd5a34a-4206-43dc-8af9-12515786baa2&email=${state.email}`)
+            xhr.send(`nonce=&l=8bd5a34a-4206-43dc-8af9-12515786baa2&email=${state.email}`)
             xhr.onreadystatechange = () => {
               if(xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
                 try {
