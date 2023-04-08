@@ -15,7 +15,6 @@ interface State extends Kiwi.ComponentState {
 }
 
 export const NewsletterLayout = BlueForest.Layout<Props, State>({
-
   state: {
     email: "",
   },
@@ -23,7 +22,6 @@ export const NewsletterLayout = BlueForest.Layout<Props, State>({
   values: {
     reCaptchaKey: "6LcWlfEUAAAAAHFs68IlVCJdale-t3vBoeT-1tOz",
     reCaptchaRef: React.createRef(),
-    elasticemail: "33137a97-0914-44ce-add5-61e2a07bcbe6",
   },
 
   render: ({ props, colors, state, values, setState }) => {
@@ -40,9 +38,9 @@ export const NewsletterLayout = BlueForest.Layout<Props, State>({
             alert("Erreur lors de la validation reCAPTCHA")
           } else {
             const xhr = new XMLHttpRequest()
-            xhr.open("POST", "https://api.elasticemail.com/v2/contact/add", true)
+            xhr.open("POST", "https://listmonk.blueforest.cc/subscription/form", true)
             xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded")
-            xhr.send(`publicAccountID=${values.elasticemail}&source=WebForm&listName=Website&email=${state.email}`)
+            xhr.send(`8bd5a=8bd5a34a-4206-43dc-8af9-12515786baa2&email=${state.email}`)
             xhr.onreadystatechange = () => {
               if(xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
                 try {
