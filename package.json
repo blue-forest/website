@@ -9,7 +9,7 @@
     "start": "kiwi start",
     "test": "kiwi test",
     "build": "kiwi build",
-    "push": "kiwi build && docker build -t theblueforest/website:$npm_package_version . && docker push theblueforest/website:$npm_package_version"
+    "push": "export IMAGE=theblueforest/website:$npm_package_version && docker build -t $IMAGE . && docker push $IMAGE"
   },
   "bundles": {
     "kiwi-bundle": {
